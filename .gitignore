@@ -1,0 +1,22 @@
+# Ignore environment variables
+.env
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore Python cache (in case of future Python scripts)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore SQL Server backup or data files
+*.bak
+*.mdf
+*.ldf
+
+# Ignore VSCode settings
+.vscode/
