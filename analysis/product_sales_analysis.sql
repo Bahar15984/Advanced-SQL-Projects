@@ -17,7 +17,12 @@ FROM dbo.Sales_Summary
 GROUP BY DATEFROMPARTS(YEAR([date]), MONTH([date]), 1)
 ORDER BY month_start;
 
-/* Top N selling days per product */
-SELECT product, [date], sales,
-       ROW_NUMBER() OVER (PARTITION BY product ORDER BY sales DESC) AS rn
-FROM dbo.Sales_Summary;
+/* Top 5 selling days per product */
+SELECT product, [date], sales
+FROM (
+    SELECT product, [date], sales,
+           ROW_NUMBER() OVER (PARTITION BY product ORDER BY sales DESC) AS rn
+    FROM dbo.Sales_Summary
+) t
+WHERE rn <= 5;
+
