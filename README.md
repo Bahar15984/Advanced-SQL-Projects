@@ -59,10 +59,29 @@ Or run a single SQL file:
 ---
 
 ## Features  
-- Banking KPI analysis (profitability, loan performance, customer segmentation)  
-- Product sales performance with revenue, discount, and margin analysis  
-- Transaction monitoring and case study with Shopify dataset  
-- Query optimization using indexing, joins, and CTEs  
+Banking Analysis
+ – profitability, loan performance, and customer segmentation
+
+Product Sales Analysis
+ – revenue, discount, and margin queries
+
+Product Sales Processing
+ – merged sales tables and reporting queries
+
+Library Management System
+ – borrower, branch, and book circulation analysis
+
+Transaction & Account Monitoring
+ – account KPIs and transaction insights
+
+Shopify Case Study
+ – e-commerce dataset exploration and KPIs
+
+Query Optimization
+ – indexing strategies and performance tuning
+
+Optimization Notes
+ – theoretical guidance and best practices
 
 ---
 
