@@ -59,47 +59,35 @@ Or run a single SQL file:
 ---
 
 ## Features  
-Banking Analysis
- – profitability, loan performance, and customer segmentation
-
-Product Sales Analysis
- – revenue, discount, and margin queries
-
-Product Sales Processing
- – merged sales tables and reporting queries
-
-Library Management System
- – borrower, branch, and book circulation analysis
-
-Transaction & Account Monitoring
- – account KPIs and transaction insights
-
-Shopify Case Study
- – e-commerce dataset exploration and KPIs
-
-Query Optimization
- – indexing strategies and performance tuning
-
-Optimization Notes
- – theoretical guidance and best practices
-
+Banking KPI analysis: profitability, loan performance, customer segmentation
+Product Sales analysis: revenue, discounts, margin insights
+Transaction monitoring with real-world scenarios
+Library Management system queries
+Shopify dataset case study
+Query optimization using indexing, joins, and CTEs
 ---
 
 ## Technologies  
-- SQL Server 2022 (via Docker)  
-- T-SQL (queries, joins, window functions, indexing)  
-- Bash scripts (automation)  
+SQL Server 2022 (via Docker)
+T-SQL (joins, window functions, indexing, optimization)
+Bash scripts (automation)
 
 ---
+##Learning Outcomes
+By exploring this project, you will learn how to:
+Design normalized database schemas
+Write analytical SQL queries (aggregations, subqueries, window functions)
+Optimize queries with proper indexing
+Manage SQL projects with Git & Docker
+
 
 ## Notes  
-- Store credentials in `.env` file (ignored by Git)  
-- Ensure Docker is running before executing SQL scripts  
-- Contributions and suggestions are welcome!  
-
+__Store credentials in .env file (ignored by Git)
+Ensure Docker is running before executing SQL scripts
+--Contributions and suggestions are welcome!
 ---
 
 ## Author  
-**Bahar Almasi**  
-[LinkedIn](https://www.linkedin.com/in/baharal/)  
-[GitHub](https://github.com/Bahar15984)
+Bahar Almasi
+LinkedIn
+GitHub
