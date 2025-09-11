@@ -4,8 +4,50 @@ This repository contains advanced SQL case studies implemented on **SQL Server 2
 It includes **Banking KPIs**, **Product Sales Analysis**, and **Transaction Management** with optimized queries and scripts.  
 
 ---
+## Project Structure
 
-<pre> ```plaintext A_SQL/ ├── analysis/ # Case study SQL queries │ ├── bank_analysis.sql │ ├── library_management_analysis.sql │ ├── shopify_case_study.sql │ └── transaction_account_management_analysis.sql │ ├── schema/ # Database creation and setup scripts │ ├── Databases_create.sql │ ├── LibraryManagement_create_insert_table.sql │ ├── bank_create_insert_tables.sql │ ├── productSales_create_insert_tables.sql │ ├── shopify_create_insert_tables.sql │ └── Processing/ │ └── product_sales_processing.sql │ ├── reports/ # KPI queries and analysis reports │ ├── kpi_queries.sql │ ├── optimization_notes.md │ ├── shopify_questions.sql │ ├── theory_questions.sql │ └── txn_account_indexes.sql │ ├── docker/ # Docker setup for SQL Server │ └── docker-compose.yml │ ├── scripts/ # Shell scripts to run SQL files │ ├── run_all.sh │ └── run_file.sh │ ├── .gitignore # Git ignored files ├── .env # Environment variables (NOT uploaded) └── README.md # Project documentation ``` </pre>
+```plaintext
+A_SQL/
+├── analysis/ # Case study SQL queries
+│   ├── bank_analysis.sql
+│   ├── library_management_analysis.sql
+│   ├── shopify_case_study.sql
+│   └── transaction_account_management_analysis.sql
+│
+├── schema/ # Database creation and setup scripts
+│   ├── Databases_create.sql
+│   ├── LibraryManagement_create_insert_table.sql
+│   ├── bank_create_insert_tables.sql
+│   ├── productSales_create_insert_tables.sql
+│   ├── shopify_create_insert_tables.sql
+│   └── Processing/
+│       └── product_sales_processing.sql
+│
+├── reports/ # KPI queries and analysis reports
+│   ├── kpi_queries.sql
+│   ├── optimization_notes.md
+│   ├── shopify_questions.sql
+│   ├── theory_questions.sql
+│   └── txn_account_indexes.sql
+│
+├── docker/ # Docker setup for SQL Server
+│   └── docker-compose.yml
+│
+├── scripts/ # Shell scripts to run SQL files
+│   ├── run_all.sh
+│   └── run_file.sh
+│
+├── .gitignore # Git ignored files
+├── .env # Environment variables (NOT uploaded)
+└── README.md # Project documentation
+
+
+
+
+
+
+
+
 
 ## Getting Started  
 
