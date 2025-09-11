@@ -43,12 +43,6 @@ A_SQL/
 
 
 
-
-
-
-
-
-
 ## Getting Started  
 
 ### 1. Run SQL Server with Docker  
