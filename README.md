@@ -5,33 +5,43 @@ It includes **Banking KPIs**, **Product Sales Analysis**, and **Transaction Mana
 
 ---
 
-## Project Structure  
+## 📂 Project Structure
 
-analysis/              # Case study SQL queries  
-│   ├── bank_analysis_part1.sql  
-│   ├── bank_analysis_part2.sql  
-│   ├── product_sales_analysis.sql  
-│   └── shopify_case_study.sql  
-│  
-├── schema/            # Database creation and setup scripts  
-│   ├── 00_create_database.sql  
-│   ├── 01_create_tables.sql  
-│   └── 02_insert_data.sql  
-│  
-├── reports/           # KPI queries and optimization notes  
-│   ├── kpi_queries.sql  
-│   └── optimization_notes.md  
-│  
-├── docker/            # Docker setup for SQL Server  
-│   └── docker-compose.yml  
-│  
-├── scripts/           # Shell scripts to run SQL files  
-│   ├── run_all.sh  
-│   └── run_file.sh  
-│  
-├── .gitignore         # Git ignored files  
-├── .env               # Environment variables (NOT uploaded)  
-└── README.md          # Project documentation  
+A_SQL
+├── analysis/ # Case study SQL queries
+│ ├── bank_analysis.sql
+│ ├── library_management_analysis.sql
+│ ├── shopify_case_study.sql
+│ └── transaction_account_management_analysis.sql
+│
+├── docker/ # Docker setup for SQL Server
+│ └── docker-compose.yml
+│
+├── reports/ # KPI queries and analysis reports
+│ ├── kpi_queries.sql
+│ ├── optimization_notes.md
+│ ├── shopify_questions.sql
+│ ├── theory_questions.sql
+│ └── txn_account_indexes.sql
+│
+├── schema/ # Database creation and setup scripts
+│ ├── Processing/
+│ │ └── product_sales_processing.sql
+│ ├── bank_create_insert_tables.sql
+│ ├── Databases_create.sql
+│ ├── LibraryManagement_create_insert_table.sql
+│ ├── productSales_create_insert_tables.sql
+│ └── shopify_create_insert_tables.sql
+│
+├── scripts/ # Shell scripts to run SQL files
+│ ├── run_all.sh
+│ └── run_file.sh
+│
+├── .env # Environment variables (not uploaded)
+├── .gitignore # Git ignored files
+└── README.md # Project documentation
+
+Copy code
 
 ---
 
