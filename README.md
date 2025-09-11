@@ -89,5 +89,5 @@ Ensure Docker is running before executing SQL scripts
 
 ## Author  
 Bahar Almasi
-LinkedIn
-GitHub
+https://www.linkedin.com/in/baharal/
+https://github.com/Bahar15984
